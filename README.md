@@ -37,8 +37,21 @@ The training saved model weights are saved in **./weights/coord_hs_yolov5s.pt**
 
 ## requirements
 ```
-pytorch >= 1.*.0
-opencv-python >= 3.3.1.11
+Cython
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-python>=4.1.2
+Pillow
+PyYAML>=5.3
+scipy>=1.4.1
+tensorboard>=2.2
+torch>=1.7.0
+torchvision>=0.8.1
+tqdm>=4.41.0
+seaborn>=0.11.0
+pandas
+thop
+pycocotools>=2.0
 ```
 <br/>
 
